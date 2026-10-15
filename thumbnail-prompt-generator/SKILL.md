@@ -1,18 +1,18 @@
 ---
 name: "thumbnail-prompt-generator"
-description: "Use when you want a YouTube podcast thumbnail made, redesigned or critiqued with ChatGPT as the only image tool — ChatGPT makes a people-free, text-free background plate; you composite the real hosts and the headline in Photoshop; one short copy-paste prompt; safe for regulated (finance) brands."
+description: "Use when you want a YouTube podcast thumbnail made, redesigned or critiqued with ChatGPT as the only image tool — ChatGPT makes a people-free, text-free background plate; you composite the real hosts and the headline in Photoshop; one short copy-paste prompt; safe for regulated brands."
 ---
 
 # Thumbnail Prompt Generator (v5, ChatGPT-only)
 
 ## Why v5 exists: the failures we actually saw
 
-I ran the v3/v4 prompts in ChatGPT for a podcast episode about the credit boom and got 4 bad outputs. Each failure traces back to a line in the prompt:
+I ran the v3/v4 prompts in ChatGPT for a podcast thumbnail test and got 4 bad outputs. Each failure traces back to a line in the prompt:
 
 | Output | What went wrong | Prompt cause |
 |---|---|---|
 | Card-city skyline | Cards read as buildings; hosts point at nothing | A metaphor ("city made of cards") with no readable shape at feed size |
-| X-ray card | Reads as a poster held up; no focal point | A meaning ("card reveals India") that a camera can't capture |
+| X-ray object | Reads as a poster held up; no focal point | A meaning ("the object reveals the country") that a camera can't capture |
 | Swipe burst | POS, scooter, fridge and sofa fighting each other | 4+ objects listed, so the model weights every noun equally |
 | Sea of glowing cards | Cards read as phones or lights; glossy HDR | Repetition ("thousands of") turns into texture; "glow" turns into plastic |
 
@@ -182,7 +182,7 @@ Never use route B for two or more real people.
 - plastic or HDR skin;
 - everything sharp.
 
-**Compliance (finance and other regulated brands; your own compliance team has the final say)**
+**Compliance (regulated brands such as finance or health; your own compliance team has the final say)**
 - Never:
   - return or ₹ claims;
   - stock tips;
@@ -199,16 +199,16 @@ Never use route B for two or more real people.
   - metaphors describing how a fund behaves.
 - Consent for every face.
 
-## 9. Worked example: a podcast episode on the credit boom
+## 9. Worked example (hypothetical): a podcast episode on cooking on a budget
 
 ```
-VERDICT: 4/10 — a text banner between two passport photos; nothing shows credit.
-CONCEPT: "card tap" · foreground layout · a hand tapping a card on a kirana counter terminal is the everyday credit moment, readable at 168 px.
+VERDICT: 4/10 — a text banner between two passport photos; nothing shows food or money.
+CONCEPT: "steel tiffin" · foreground layout · a hand lifting the lid of a steel lunch box on a kitchen counter is the everyday budget-meal moment, readable at 168 px.
 PROMPT (fresh ChatGPT chat):
-  A real photograph, landscape 16:9. Close-up of a hand tapping a plain blank credit card on a small handheld payment terminal resting on a worn wooden shop counter, large in the lower centre of the frame. Setting: shelves of packaged goods far behind, out of focus. Light: a single bare warm bulb hanging above the counter, warm orange against deep navy blue shadows. Upper third and left and right edges plain and dark, for people and text added later. Shot on a 35mm lens, shallow depth of field, matte finish, light film grain, muted realistic colour. All surfaces blank, no writing, no logos, no people besides the one hand.
-IF IT GOES WRONG: "Make the card and terminal screen fully blank; keep everything else identical." / "Less shine, more matte and natural; keep everything else identical."
-FINISH: hosts from a reactive frame, 28–30% each, behind the counter at left and right · "THE / CREDIT BOOM", BOOM in the accent colour, top · navy shadows, warm skin, 3% grain
-STATUS: CLEARED (blank card and terminal, no claims, no logos) — consent for both hosts
+  A real photograph, landscape 16:9. Close-up of a hand lifting the lid off a plain steel lunch box on a worn wooden kitchen counter, steam rising, large in the lower centre of the frame. Setting: open shelves with jars far behind, out of focus. Light: a single bare warm bulb hanging above the counter, warm orange against deep navy blue shadows. Upper third and left and right edges plain and dark, for people and text added later. Shot on a 35mm lens, shallow depth of field, matte finish, light film grain, muted realistic colour. All surfaces blank, no writing, no logos, no people besides the one hand.
+IF IT GOES WRONG: "Remove every label from the jars and the box; keep everything else identical." / "Less shine, more matte and natural; keep everything else identical."
+FINISH: hosts from a reactive frame, 28–30% each, behind the counter at left and right · "COOK / FOR LESS", LESS in the accent colour, top · navy shadows, warm skin, 3% grain
+STATUS: CLEARED (blank surfaces, no claims, no logos) — consent for both hosts
 ```
 
 ## 10. Honest limits
