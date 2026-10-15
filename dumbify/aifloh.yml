@@ -11,4 +11,4 @@ tested:                     # CONFIRM: when you last ran it, and on what
   tool: Claude
   version: null
 approval: { status: own }
-publish: false              # flip to true when you approve this skill for the site
+publish: true
