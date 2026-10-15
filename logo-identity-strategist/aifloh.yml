@@ -1,0 +1,14 @@
+kind: resource
+type: skill
+title: "Logo Identity Strategist"
+summary: "The strategy pass before any logo is generated: discovery, concept territories, an anti-cliché filter, a distinctiveness test."
+status: live
+tags: [design, claude-skill]
+tools: [Claude]
+codeWord: logostrategy            # CONFIRM: the word you will say in posts
+tested:                     # CONFIRM: when you last ran it, and on what
+  on: null
+  tool: Claude
+  version: null
+approval: { status: own }
+publish: false              # flip to true when you approve this skill for the site

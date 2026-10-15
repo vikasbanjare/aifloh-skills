@@ -1,0 +1,14 @@
+kind: resource
+type: skill
+title: "Brand Design Studio"
+summary: "A designer's thinking process and playbooks for carousels, newsletters and posters inside a three-colour, one-typeface brand."
+status: live
+tags: [design, claude-skill]
+tools: [Claude]
+codeWord: brandkit            # CONFIRM: the word you will say in posts
+tested:                     # CONFIRM: when you last ran it, and on what
+  on: null
+  tool: Claude
+  version: null
+approval: { status: own }
+publish: false              # flip to true when you approve this skill for the site

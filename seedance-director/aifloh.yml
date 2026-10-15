@@ -1,0 +1,14 @@
+kind: resource
+type: skill
+title: "Seedance Director"
+summary: "Turns a plain scene description into a bilingual English and Chinese video prompt for Seedance 2.0."
+status: live
+tags: [prompts, claude-skill]
+tools: [Claude]
+codeWord: seedance            # CONFIRM: the word you will say in posts
+tested:                     # CONFIRM: when you last ran it, and on what
+  on: null
+  tool: Claude
+  version: null
+approval: { status: own }
+publish: false              # flip to true when you approve this skill for the site

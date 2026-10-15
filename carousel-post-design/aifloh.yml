@@ -1,0 +1,14 @@
+kind: resource
+type: skill
+title: "Carousel Post Design"
+summary: "Plans and designs Instagram and LinkedIn carousels: hook, one idea per slide, a fixed grid and type scale, and a phone check."
+status: live
+tags: [design, claude-skill]
+tools: [Claude]
+codeWord: carousel            # CONFIRM: the word you will say in posts
+tested:                     # CONFIRM: when you last ran it, and on what
+  on: null
+  tool: Claude
+  version: null
+approval: { status: own }
+publish: false              # flip to true when you approve this skill for the site

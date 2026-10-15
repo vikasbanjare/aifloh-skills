@@ -1,0 +1,14 @@
+kind: resource
+type: skill
+title: "Deck Director"
+summary: "Art-directs slide decks to a fixed grid, type scale and colour system, with an audit that decides which slides to cut."
+status: live
+tags: [design, claude-skill]
+tools: [Claude]
+codeWord: decks            # CONFIRM: the word you will say in posts
+tested:                     # CONFIRM: when you last ran it, and on what
+  on: null
+  tool: Claude
+  version: null
+approval: { status: own }
+publish: false              # flip to true when you approve this skill for the site

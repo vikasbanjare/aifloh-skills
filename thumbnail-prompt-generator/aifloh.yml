@@ -1,0 +1,14 @@
+kind: resource
+type: skill
+title: "Thumbnail Prompt Generator"
+summary: "One short ChatGPT prompt for a people-free thumbnail plate, plus the Photoshop finish for real hosts and the headline."
+status: live
+tags: [prompts, claude-skill]
+tools: [Claude]
+codeWord: thumbs            # CONFIRM: the word you will say in posts
+tested:                     # CONFIRM: when you last ran it, and on what
+  on: null
+  tool: Claude
+  version: null
+approval: { status: own }
+publish: false              # flip to true when you approve this skill for the site

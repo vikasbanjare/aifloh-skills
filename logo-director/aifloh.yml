@@ -1,0 +1,14 @@
+kind: resource
+type: skill
+title: "Logo Director"
+summary: "Turns a brand brief into model-routed logo prompts, then converges, vectorizes and scale-tests the mark."
+status: live
+tags: [design, claude-skill]
+tools: [Claude]
+codeWord: logoprompt            # CONFIRM: the word you will say in posts
+tested:                     # CONFIRM: when you last ran it, and on what
+  on: null
+  tool: Claude
+  version: null
+approval: { status: own }
+publish: false              # flip to true when you approve this skill for the site
